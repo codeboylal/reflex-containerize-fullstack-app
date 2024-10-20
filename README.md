@@ -82,6 +82,11 @@ Access your application
 - Backend: <a href="http://localhost:8000" target="_blank" rel="noopener noreferrer">http://localhost:8000</a>
 
 
+### Access your application
+
+- Frontend: [http://localhost:3000](http://localhost:3000) <!-- Markdown link, but might not open in new tab -->
+- Backend: [http://localhost:8000](http://localhost:8000) <!-- Markdown link, but might not open in new tab -->
+
 
 
 
