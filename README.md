@@ -76,6 +76,11 @@ http://localhost:3000
 http://localhost:8000
 
 
+Access your application
+
+- Frontend: <a href="http://localhost:3000" target="_blank" rel="noopener noreferrer">http://localhost:3000</a>
+- Backend: <a href="http://localhost:8000" target="_blank" rel="noopener noreferrer">http://localhost:8000</a>
+
 
 
 
