@@ -69,12 +69,14 @@ docker ps
 ```
 
 Access your application
+- Frontend:
 ```bash
-Frontend : http://localhost:3000
+http://localhost:3000
 ```
 
+- Backend:
 ```bash
-Backend : http://localhost:8000
+http://localhost:8000
 ```
 
 
