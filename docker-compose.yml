@@ -10,4 +10,4 @@ services:
     volumes:
       - .:/app
       - ./reflex.db:/app/reflex.db  # Persist SQLite database file
-    command: ["reflex", "run"]
+    command: reflex run

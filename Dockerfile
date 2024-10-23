@@ -1,8 +1,13 @@
 # Use the official Python image from DockerHub
-FROM python:3.12
+FROM python:3.12-slim
 
-# Install system dependencies including unzip
-RUN apt-get update && apt-get install -y unzip && rm -rf /var/lib/apt/lists/*
+# Install curl and any other required packages
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends curl unzip && \
+    rm -rf /var/lib/apt/lists/*
+
+# Install Reflex CLI
+RUN pip install reflex-cli
 
 # Set the working directory inside the container
 WORKDIR /app
@@ -26,3 +31,9 @@ EXPOSE 8000
 
 # Command to run the Reflex app
 CMD ["reflex", "run"]
+
+
+
+
+
+
