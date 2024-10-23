@@ -1,20 +1,14 @@
 
-*.py[cod]
-
-.web
-
-assets/external/
-
 # Ignore Python cache files
-__pycache__/
-*.pyc
-
-# Ignore virtual environments
-.venv/
-.env/
-
-# Ignore database files
-*.db
-
 # Ignore any local configuration files
+# Ignore database files
+# Ignore virtual environments
+*.db
 *.local
+*.py[cod]
+*.pyc
+.env/
+.venv/
+.web
+__pycache__/
+assets/external/
